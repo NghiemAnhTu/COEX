@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/blurbb">
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:src="@drawable/blurbb"-->
+<!--        android:scaleType="centerCrop"/>-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:src="@drawable/coex"/>
+
+    <TextView
+        android:id="@+id/forpartner"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:text="@string/used"
+        android:layout_below="@id/logo"
+        android:layout_marginEnd="@dimen/margin"
+        android:textAppearance="@style/textForPartner"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:text="@string/email"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="@dimen/marginTopLogo"
+        android:layout_marginLeft="@dimen/marginStartContext"
+        android:textAppearance="@style/textNormal"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/txtEmail"
+        android:layout_marginRight="@dimen/marginStartContext"
+        android:layout_marginTop="@dimen/marginTextContent"
+        android:layout_below="@id/txtEmail"
+        android:backgroundTint="@color/colorWhile"
+        android:background="@drawable/edt_normal"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:id="@+id/txtPassword"
+        android:text="@string/password"
+        android:layout_below="@id/edtEmail"
+        android:layout_alignLeft="@id/txtEmail"
+        android:layout_marginTop="@dimen/marginTwo"
+        android:textAppearance="@style/textNormal" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:text="@string/forgot_password"
+        android:layout_alignTop="@id/txtPassword"
+        android:layout_alignBottom="@id/txtPassword"
+        android:layout_alignRight="@id/edtEmail"
+        android:gravity="right"
+        android:textAppearance="@style/textNormal"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/txtEmail"
+        android:layout_marginTop="@dimen/marginTextContent"
+        android:layout_alignRight="@id/edtEmail"
+        android:layout_below="@id/txtPassword"
+        android:backgroundTint="@color/colorWhile"
+        android:background="@drawable/edt_normal"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="@string/btnLogin"
+        android:layout_alignLeft="@id/edtEmail"
+        android:layout_alignRight="@id/edtEmail"
+        android:layout_below="@id/edtPassword"
+        android:layout_marginTop="@dimen/marginbtn"
+        android:background="@drawable/button_normal"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:id="@+id/txtLogin"
+        android:text="@string/txtLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/marginEndContext"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textAppearance="@style/textLink"/>
+</RelativeLayout>

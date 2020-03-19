@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+
+<!--<RelativeLayout android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android" >-->
+<!--    <ImageView-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="41dp"-->
+<!--        android:background="@drawable/rectangle_50"/>-->
+
+<!--    <ImageButton-->
+<!--        android:layout_height="@dimen/icon"-->
+<!--        android:layout_width="@dimen/icon"-->
+<!--        android:id="@+id/imgBackList"-->
+<!--        android:background="@drawable/vector_7"-->
+<!--        android:layout_marginStart="@dimen/marginStartContext"-->
+<!--        android:layout_marginTop="@dimen/marginTop"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toEndOf="@id/imgBackList"-->
+<!--        android:id="@+id/txtNameCoo"-->
+<!--        android:text="@string/coo_name"-->
+<!--        android:textAppearance="@style/coo_yen_hoa"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:layout_alignTop="@id/imgBackList"-->
+<!--        android:layout_marginRight="@dimen/marginStartContext"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/txtAddressCoo"-->
+<!--        android:textAppearance="@style/address_coo"-->
+<!--        android:text="@string/coo_address"-->
+<!--        android:layout_below="@id/view"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo"-->
+<!--        android:layout_marginStart="@dimen/marginStartContext"-->
+<!--        android:layout_marginEnd="@dimen/marginStartContext"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:id="@+id/line8"-->
+<!--        android:layout_below="@id/txtAddressCoo"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:background="@drawable/line"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/aboutSpace"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAppearance="@style/about_space"-->
+<!--        android:text="@string/about_space"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"-->
+<!--        android:layout_below="@id/line8"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/simply_dummy"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAppearance="@style/simply_dumm"-->
+<!--        android:text="@string/simply_dummy"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo"-->
+<!--        android:layout_below="@id/aboutSpace"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:id="@+id/line9"-->
+<!--        android:layout_below="@id/simply_dummy"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:background="@drawable/line"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"/>-->
+<!--    -->
+<!--    <TextView-->
+<!--        android:id="@+id/ourOfService"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"-->
+<!--        android:textAppearance="@style/about_space"-->
+<!--        android:text="@string/out_of_service"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:layout_below="@id/line9"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/view_more"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/ourOfService"-->
+<!--        android:layout_alignRight="@id/txtAddressCoo"-->
+<!--        android:text="@string/view_more"-->
+<!--        android:textAppearance="@style/view_more"/>-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/iconWifi"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/ourOfService"-->
+<!--        android:layout_alignLeft="@id/txtAddressCoo"-->
+<!--        android:layout_marginTop="23dp"-->
+<!--        android:background="@drawable/ic_wifi" />-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/iconDrink"-->
+<!--        android:layout_width="@dimen/icon_h_w"-->
+<!--        android:layout_height="@dimen/icon_h_w"-->
+<!--        android:background="@drawable/ic_drink"-->
+<!--        android:layout_below="@id/iconWifi"-->
+<!--        android:layout_alignLeft="@id/txtAddressCoo"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtDetailWifi"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/iconWifi"-->
+<!--        android:layout_toRightOf="@id/iconWifi"-->
+<!--        android:textAppearance="@style/detail_icon"-->
+<!--        android:text="@string/detail_wifi"-->
+<!--        android:layout_marginStart="@dimen/icon"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtDetailDrink"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/iconDrink"-->
+<!--        android:layout_toRightOf="@id/iconDrink"-->
+<!--        android:textAppearance="@style/detail_icon"-->
+<!--        android:text="@string/detail_drink"-->
+<!--        android:layout_marginStart="@dimen/icon"/>-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/iconConver"-->
+<!--        android:layout_width="@dimen/icon_h_w"-->
+<!--        android:layout_height="@dimen/icon_h_w"-->
+<!--        android:background="@drawable/ic_conversion_call"-->
+<!--        android:layout_toRightOf="@id/txtDetailWifi"-->
+<!--        android:layout_alignTop="@id/iconWifi"-->
+<!--        android:layout_marginStart="@dimen/marginIcon2"/>-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/iconAirCond"-->
+<!--        android:layout_width="@dimen/icon_h_w"-->
+<!--        android:layout_height="@dimen/icon_h_w"-->
+<!--        android:background="@drawable/ic_air_conditioning"-->
+<!--        android:layout_below="@id/iconConver"-->
+<!--        android:layout_alignLeft="@id/iconConver"-->
+<!--        android:layout_alignTop="@id/iconDrink" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtDetailConver"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/iconWifi"-->
+<!--        android:layout_toRightOf="@id/iconConver"-->
+<!--        android:textAppearance="@style/detail_icon"-->
+<!--        android:text="@string/detail_conversion"-->
+<!--        android:layout_marginStart="@dimen/icon"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtDetailAir"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/iconDrink"-->
+<!--        android:layout_toRightOf="@id/iconAirCond"-->
+<!--        android:textAppearance="@style/detail_icon"-->
+<!--        android:text="@string/detail_air"-->
+<!--        android:layout_marginStart="@dimen/icon"/>-->
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/iconPrinter"-->
+<!--        android:layout_width="@dimen/icon_h_w"-->
+<!--        android:layout_height="@dimen/icon_h_w"-->
+<!--        android:background="@drawable/ic_printer"-->
+<!--        android:layout_toLeftOf="@id/txtDetailPrinter"-->
+<!--        android:layout_alignTop="@id/iconWifi"-->
+<!--        android:layout_marginRight="@dimen/marginIcon"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtDetailPrinter"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/iconWifi"-->
+<!--        android:textAppearance="@style/detail_icon"-->
+<!--        android:text="@string/detail_printer"-->
+<!--        android:layout_alignRight="@id/view_more"/>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:id="@+id/line10"-->
+<!--        android:layout_below="@id/iconDrink"-->
+<!--        android:background="@drawable/line_9"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/roomOfCoo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo2"-->
+<!--        android:textAppearance="@style/about_space"-->
+<!--        android:text="@string/room_coo"-->
+<!--        android:layout_alignEnd="@id/txtAddressCoo"-->
+<!--        android:layout_alignStart="@id/txtAddressCoo"-->
+<!--        android:layout_below="@id/line10"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/addNewRoom"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignTop="@id/roomOfCoo"-->
+<!--        android:layout_alignRight="@id/txtAddressCoo"-->
+<!--        android:text="@string/add_room"-->
+<!--        android:textAppearance="@style/view_more"/>-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/listRoom"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/roomOfCoo"-->
+<!--        android:layout_alignLeft="@id/txtAddressCoo"-->
+<!--        android:layout_alignRight="@id/txtAddressCoo"-->
+<!--        android:layout_marginTop="@dimen/marginDetailCoo"/>-->
+
+
+
+<!--</RelativeLayout>&ndash;&gt;-->
